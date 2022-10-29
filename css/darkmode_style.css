@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #3A3A41;
+    --secondary-color: #73767F;
+    --tertiary-color: #6C6D6F;
+    --whitebackground: #FAF9FB;
+    --fourth-color: #AEB1B9;
+    --yellow: #FFCE31;
+    --dark-mode: #201f22;
+  }
+
+nav.dark_mode{
+    background-color: var(--dark-mode) !important;
+    border-color: var(--primary-color) !important;
+}
+
+header#logo{
+    background-color: var(--dark-mode) !important;
+}
+
+body.dark_mode{
+    background-color: var(--primary-color) !important;
+}
+
+ul.nav_options > li > a.dark_mode{
+    color: var(--whitebackground) !important;
+}
+
+ul.nav_options > li > a > i.dark_mode{
+    color: var(--whitebackground) !important;
+}
+nav#right_nav div.dark_mode{
+    color: var(--whitebackground) !important;
+}
+section#cart.dark_mode{
+    color: white;
+}
+a.remove_cart_item.dark_mode{
+    color: var(--whitebackground) !important;
+}
+section#cart article.cart_dish.dark_mode{
+    background-color: #201f22;
+}
+div.order_info.dark_mode{
+    color: var(--whitebackground);
+}

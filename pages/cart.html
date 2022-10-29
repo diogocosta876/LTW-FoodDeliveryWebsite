@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>TOGO</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/darkmode_style.css">
+    <script type="text/javascript" src="../javascript/script.js" defer></script>
+  </head>
+  <body>
+    <nav id="left_nav">
+      <header id="logo">
+        <h1><a href="index.html">TOGO</a></h1>
+        <h3>REINVENTING FOOD DELIVERY</h3>
+     </header>
+
+      <ul class = "nav_options">
+        <li><a href="restaurants.html"><i class="fa fa-home" aria-hidden="true"></i>Restaurants</a></li>
+        <li><a href="dishes.html"><i class="fa fa-cutlery" aria-hidden="true"></i>Dishes</a></li>
+        <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a></li>
+        <li><a href="favourites.html"><i class="fa fa-heart" aria-hidden="true"></i>Favourites</a></li>
+        <li><a href="profile_owner.html"><i class="fa fa-user" aria-hidden="true"></i>Profile</a></li>
+      </ul>
+      <div class="darkmode_toggle">
+        <span>DARKMODE</span>
+        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+      </div>
+    </nav>
+    <main>
+      <header>
+        <img src="https://picsum.photos/100/100?c" alt="Restaurant image">
+        <h1 id = "restaurant_name">The Lobster</h1>
+        <h2>address</h2>
+        <address>Avenida da Liberdade 55, Porto</address>
+        <h2>Review Rating</h2>
+        <p class = "restaurant_evaluation">4.5</p>
+      </header>
+      <section>
+        <header>
+          <h1>Order num 200</h1>
+        </header>
+        <article class = "dish">
+          <img src ="https://picsum.photos/100/100?b" alt="Dish image">
+          <span class="dish_name">Polvo à Lagareiro</span>
+          <span class="dish_price">10.99</span>
+          <span class="dish_evaluation">3.9</span>
+        </article>
+        <article class = "dish">
+          <img src ="https://picsum.photos/100/100?b" alt="Dish image">
+          <span class="dish_name">Porco à Alentejana</span>
+          <span class="dish_price">14.50</span>
+          <span class="dish_evaluation">4.3</span>
+          <span class="restaurant_name">Tasca do Zé</span>
+        </article>
+        <footer>
+            <span class = "total">43.96</span>
+            <span class = "delivery_duration">11 min</span>
+            <button>Order</button>
+        </footer>
+      </section>
+
+    </main>
+    <nav id = "right_nav">
+        <section id = "profile">
+            <img src="https://picsum.photos/20/20?c" alt="User image">
+            <span class = "name">João</p>
+            <span class = "account">User</p>
+        </section>
+        <section id="cart">
+            <span class = "section_name">Cart</span>
+            <span class = "order_number">Order 300</span>
+            <span class = "cart_restaurant">Tasca do Zé</span>
+            <article class="cart_dish">
+                <img src="https://picsum.photos/100/100?c" alt="Restaurant image">
+                <span class = "dish_name">Polvo à Lagareiro</span> 
+                <span class = "dish_price">12.5</span> 
+            </article>
+            <article class="cart_dish">
+                <img src="https://picsum.photos/100/100?b" alt="Restaurant image">
+                <span class = "dish_name">Bifinhos com Cogumelos</span> 
+                <span class = "dish_price">10</span> 
+            </article>
+            <span class = "total">22.5</span>
+        </section>
+    </nav>
+  </body>
+</html>
