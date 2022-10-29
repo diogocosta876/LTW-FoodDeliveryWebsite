@@ -10,4 +10,5 @@ $ sudo apt-get install php7.4-sqlite3
 
 ## Credentials
 1234/1234 - Customer
+
 54321/54321 - Owner
